@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Spaghetti",
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "garlic",
+      "olive oil"
+    ],
+    "image": "images\\spaghetti_1767131745.jpg"
+  },
+  {
+    "name": "Omelette",
+    "ingredients": [
+      "eggs",
+      "milk",
+      "butter",
+      "salt"
+    ],
+    "image": "images\\omelette_1767131695.jpg"
+  },
+  {
+    "name": "Grilled Cheese",
+    "ingredients": [
+      "bread",
+      "cheese",
+      "butter"
+    ],
+    "image": ""
+  },
+  {
+    "name": "Salad",
+    "ingredients": [
+      "lettuce",
+      "tomato",
+      "cucumber",
+      "olive oil"
+    ],
+    "image": "images\\salad_1767131657.jpg"
+  },
+  {
+    "name": "Pancakes",
+    "ingredients": [
+      "flour",
+      "milk",
+      "egg",
+      "butter"
+    ],
+    "image": ""
+  },
+  {
+    "name": "Chicken Stir Fry",
+    "ingredients": [
+      "chicken",
+      "soy sauce",
+      "garlic",
+      "vegetables"
+    ],
+    "image": "images\\chicken_stir_fry_1767131629.jpg"
+  },
+  {
+    "name": "chips",
+    "ingredients": [
+      "potato",
+      "salt"
+    ],
+    "image": "images\\chips_1767131643.jpg"
+  }
+]
