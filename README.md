@@ -1,11 +1,29 @@
-Today's Dish 🍽️
+# Simple Cook Picker (PyQt + JSON)
 
-Today's Dish is a desktop application built with Python and PyQt5 that helps users solve the everyday question: "What should I cook today?" The app suggests meal ideas in a simple and interactive interface, making meal planning easier and more enjoyable. Whether you're looking for inspiration or trying to save time, this application helps you discover delicious dishes with just a few clicks.
+A small PyQt5 app to randomly choose a dish to cook, keep dishes in JSON, add dishes, edit recipes, and filter by ingredients.
 
-Features
+Requirements
+- Python 3.8+
+- PyQt5
 
-🍲 Browse a variety of dishes.
-🎲 Get random meal suggestions.
-🔍 Find recipes based on your preferences.
-🖥️ Clean and user-friendly PyQt5 interface.
-⚡ Fast, lightweight, and easy to use.
+Install:
+```
+pip install -r requirements.txt
+```
+
+Run:
+```
+python main.py
+```
+
+Files
+- main.py — the PyQt5 application
+- data/dishes.json — sample dishes (name + ingredients)
+- data/recipes.json — sample recipes (map dish -> recipe)
+- requirements.txt
+
+Usage notes
+- "Choose Random" selects a dish randomly from the currently filtered/available list.
+- If you dislike a selection, click "Don't like — pick again"; that dish is removed from the current pool (temporarily) so it won't be picked again until you use "Reset choices".
+- Add dishes in Settings. Add recipes in the Recipes tab.
+- Data is saved to `data/dishes.json` and `data/recipes.json`.
